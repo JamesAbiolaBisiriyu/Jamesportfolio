@@ -105,6 +105,8 @@ const Resume = () => {
           <SkillItem title='React' value={80}/>
           <SkillItem title='HTML' value={80}/>
           <SkillItem title='CSS' value={60}/>
+          <SkillItem title='Redux Toolkit' value={60}/>
+
 
         </ul>
       </div>
