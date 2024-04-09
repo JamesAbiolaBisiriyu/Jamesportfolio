@@ -12,7 +12,17 @@ const Portfolio = () => {
       setProjects(data);
       setFilteredProjects(data)
     });
-  }, [])
+  }, []);
+
+  const handleFilterClick = (category) => {
+    setSelectCategory(category);
+    if (category === 'All') {
+      setFilteredProjects(projects);
+    } else {
+      const filtered = projects.filter((project)=> project.category === category);
+      setFilteredProjects(filtered);
+    }
+  }
 
   return (
     <section>
@@ -22,7 +32,9 @@ const Portfolio = () => {
     <ul className='filter-list'>
       {['All','Web Design', 'Applications', 'web development'].map(category=>(
         <li key={category} className='filter-item'>
-          <button className={category === selectCategory ? 'active ' : '' }>{category}</button>
+          <button onClick={() => handleFilterClick(category) } 
+          data-filter-btn
+          className={category === selectCategory ? 'active ' : '' }>{category}</button>
         </li>
       ))}
     </ul>
