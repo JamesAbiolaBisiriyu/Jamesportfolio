@@ -24,6 +24,10 @@ const Portfolio = () => {
     }
   }
 
+  const handleClick = (url) => {
+    window.location.href = url; // Redirect to the specified URL
+  };
+
   return (
     <section>
       <header>
@@ -46,7 +50,7 @@ const Portfolio = () => {
             <li key={project.id} className='project-item active
             data-filter-item
             data-category={project.category} '>
-              <a href="#">
+              <a href={`#${project.id}`} onClick={() => handleClick(project.id)}>
                 <figure className='project-img'>
                   <div className='project-item-icon-box'>
                     <FaRegEye/>

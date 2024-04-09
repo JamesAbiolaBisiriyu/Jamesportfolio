@@ -1,56 +1,56 @@
 [
   {
-    "id": 1,
-    "title": "Finance",
+    "id": "https://ecommercer-zeta.vercel.app/",
+    "title": "Ecommerce Website/Shopper",
     "category": "Web development",
     "image": "images/project-1.jpg"
   },
   {
-    "id": 2,
-    "title": "Orizon",
+    "id": "https://react-ecommerce-ashy-eta.vercel.app/",
+    "title": "Ecommerce Website/Shop Cart",
     "category": "Web development",
     "image": "images/project-2.png"
   },
   {
-    "id": 3,
-    "title": "Fundo",
+    "id": "https://landing-page-design-eight.vercel.app/",
+    "title": "Landing Page",
     "category": "Web design",
     "image": "images/project-3.jpg"
   },
   {
-    "id": 4,
-    "title": "Brawlhalla",
+    "id": "https://super-simple-dev.vercel.app/",
+    "title": "YouTube Clone",
     "category": "Applications",
     "image": "images/project-3.jpg"
   },
   {
-    "id": 5,
-    "title": "DSM.",
-    "category": "Web design",
+    "id": "https://simple-clock-umber.vercel.app/",
+    "title": "Simple Clock",
+    "category": "Application",
     "image": "images/project-5.png"
   },
   {
-    "id": 6,
-    "title": "MetaSpark",
+    "id": "https://new-responsive-education-website.vercel.app/",
+    "title": "Egator / Education Website ",
     "category": "Web design",
     "image": "images/project-6.png"
   },
   {
-    "id": 7,
-    "title": "Summary",
+    "id": "https://frontend-bootcamp-two.vercel.app/",
+    "title": "Front End Boot Camp",
     "category": "Web development",
     "image": "images/project-7.png"
   },
   {
-    "id": 8,
-    "title": "Task Manager",
+    "id": "https://james-expense-tracker.vercel.app/",
+    "title": "Task Manager / Expense Tracker",
     "category": "Applications",
     "image": "images/project-8.jpg"
   },
   {
-    "id": 9,
-    "title": "Arrival",
-    "category": "Web development",
+    "id": "https://redux-toolkit-mu.vercel.app/",
+    "title": "Redux Tool Kit",
+    "category": "Application",
     "image": "images/project-9.png"
   }
 ]
