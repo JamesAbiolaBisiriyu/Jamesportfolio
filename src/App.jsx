@@ -16,7 +16,10 @@ const App = () => {
     <section style={{
       scrollBehavior: 'smooth'
     }}>
+      <div className='about-space'>
       <Outlet/>
+
+      </div>
     </section>
     </div>
     

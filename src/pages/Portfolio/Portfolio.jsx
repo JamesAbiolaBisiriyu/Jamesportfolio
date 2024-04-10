@@ -24,9 +24,15 @@ const Portfolio = () => {
     }
   }
 
+  // const handleClick = (url) => {
+  //   window.location.href = url; // Redirect to the specified URL
+    
+  // };
   const handleClick = (url) => {
     window.location.href = url; // Redirect to the specified URL
   };
+  
+  
 
   return (
     <section>
@@ -51,6 +57,7 @@ const Portfolio = () => {
             data-filter-item
             data-category={project.category} '>
               <a href={`#${project.id}`} onClick={() => handleClick(project.id)}>
+              {/* <a href={`#${project.id}`} onClick={(e) => handleClick(`#${project.id}`, e)}> */}
                 <figure className='project-img'>
                   <div className='project-item-icon-box'>
                     <FaRegEye/>
