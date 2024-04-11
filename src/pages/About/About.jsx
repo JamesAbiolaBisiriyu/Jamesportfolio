@@ -30,22 +30,22 @@ const testimonialData =
   {
     "name": "Daniel Lewis",
     "avatar": "/images/avatar-1.png",
-    "testimonial": "James was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of the client."
+    "testimonial": "James was hired to create a corporate identity. We were very pleased with the work done. He has a lot of experience and is very concerned about the needs of the client."
   },
   {
     "name": "Jessica Miller",
     "avatar": "/images/avatar-2.png",
-    "testimonial": "James was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of the client."
+    "testimonial": "James was hired to create a corporate identity. We were very pleased with the work done. He has a lot of experience and is very concerned about the needs of the client."
   },
   {
     "name": "Emily Evans",
     "avatar": "/images/avatar-3.png",
-    "testimonial": "James was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of the client."
+    "testimonial": "James was hired to create a corporate identity. We were very pleased with the work done. He has a lot of experience and is very concerned about the needs of the client."
   },
   {
     "name": "Henry William",
     "avatar": "/images/avatar-4.png",
-    "testimonial": "James was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of the client."
+    "testimonial": "James was hired to create a corporate identity. We were very pleased with the work done. He has a lot of experience and is very concerned about the needs of the client."
   }
 ]
 
