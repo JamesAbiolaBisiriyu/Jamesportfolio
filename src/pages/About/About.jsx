@@ -69,7 +69,7 @@ const About = () => {
       </header>
       <section className="about-text">
       <p>
-          I am a creative Director from Lagos Nigeria, working as a Web
+          I am a creative Director from Lagos Nigeria, working part time as a Web
           Developer. I enjoy turning complex problems into simple, beautiful and
           intuitive designs
         </p>
