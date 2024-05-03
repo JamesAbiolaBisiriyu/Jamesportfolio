@@ -1147,7 +1147,9 @@ textarea.form-input::-webkit-resizer { display: none; }
  @media (min-width: 360px){
 .about-space{
   margin-top: 40px;
+  
 }
+
  }
 
 @media (min-width: 450px) {

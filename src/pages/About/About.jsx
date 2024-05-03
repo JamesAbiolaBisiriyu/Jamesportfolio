@@ -61,7 +61,7 @@ const About = () => {
   //   })
   // }, [])
   return (
-    <div className="about active ">
+    <div className="about  ">
       <header>
         <h2 className="h2 article-title">
           About Me

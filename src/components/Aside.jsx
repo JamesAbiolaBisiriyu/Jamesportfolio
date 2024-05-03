@@ -9,7 +9,7 @@ const Aside = () => {
         </figure>
         <div className="info-content">
           <h1 className="name">James Abiola Bisiriyu</h1>
-          <p className="title">Front End Developer</p>
+          <h1 className="title">Front End Developer</h1>
         </div>
         <button className="info_more-btn">
           <span>Show Contacts</span>

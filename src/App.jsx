@@ -14,7 +14,8 @@ const App = () => {
     <NavBar/>
 
     <section style={{
-      scrollBehavior: 'smooth'
+      scrollBehavior: 'smooth',
+      
     }}>
       <div className='about-space'>
       <Outlet/>
