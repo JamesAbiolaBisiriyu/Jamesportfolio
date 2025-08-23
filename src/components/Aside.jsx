@@ -1,12 +1,15 @@
 import { GiCalendar, GiClawSlashes, GiMailbox, GiPhone } from "react-icons/gi";
+import './Aside.css'
+
 
 const Aside = () => {
   return (
     <aside className="sidebar">
       <div className="sidebar-info">
         <figure className="avatar-box">
-          <img src="/images/myImage.jpg" alt="" width="100" />
-        </figure>
+  <img src="/images/myImage2.png" alt="" className="avatar" />
+</figure>
+
         <div className="info-content">
           <h1 className="name">James Abiola Bisiriyu</h1>
           <h1 className="title">Front End Developer</h1>

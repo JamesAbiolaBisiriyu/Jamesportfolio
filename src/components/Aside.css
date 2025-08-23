@@ -1,0 +1,13 @@
+.avatar-box {
+  width: auto;
+  height: auto;
+  overflow: hidden;   /* hides the extra part */
+  /* border-radius: 50%; optional, if you want it circular */
+}
+
+.avatar {
+  width: auto;
+  height: auto;
+  /* object-fit: cover;  makes it fill the box neatly */
+  object-position: center;
+}
