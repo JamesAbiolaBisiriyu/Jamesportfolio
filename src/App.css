@@ -451,7 +451,7 @@ main {
 \*-----------------------------------*/
 
 .navbar {
-  position: fixed;
+  position: relative;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -461,7 +461,7 @@ main {
   border: 1px solid var(--jet);
   border-radius: 12px 12px 0 0;
   box-shadow: var(--shadow-2);
-  z-index: 5;
+  z-index: 1;
 }
 
 .navbar-list {
@@ -1617,17 +1617,23 @@ textarea.form-input::-webkit-resizer { display: none; }
    * NAVBAR
    */
 
-  .navbar {
-    position: absolute;
-    bottom: auto;
-    top: 0;
-    left: auto;
-    right: 0;
-    width: max-content;
-    border-radius: 0 20px;
-    padding: 0 20px;
-    box-shadow: none;
-  }
+  /**
+ * NAVBAR
+ */
+
+.navbar {
+  position: absolute;
+  bottom: auto;
+  top: 0;
+  left: auto;
+  right: 0;
+  width: max-content;
+  border-radius: 0 20px;
+  padding: 0 20px;
+  box-shadow: none;
+  z-index: -1;
+}
+
 
   .navbar-list {
     gap: 30px;
@@ -1743,13 +1749,14 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar {
-    position: sticky;
+    /* position: sticky; */
+    position: relative;
     top: 60px;
     max-height: max-content;
     height: 100%;
     margin-bottom: 0;
     padding-top: 60px;
-    z-index: 1;
+    z-index: 2;
   }
 
   .sidebar-info { flex-direction: column; }

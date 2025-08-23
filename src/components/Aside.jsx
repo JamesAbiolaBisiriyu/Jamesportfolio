@@ -50,12 +50,7 @@ const Aside = () => {
             <div>
               <GiCalendar />
             </div>
-            <div className="contact-info">
-              <p className="contact-title">BIRTHDAY</p>
-              <time dateTime="1982-10-08" className="contact-link">
-                October 08 1982
-              </time>
-            </div>
+            
           </li>{" "}
           <li className="contact-item">
             <div>
