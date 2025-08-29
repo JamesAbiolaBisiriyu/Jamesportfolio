@@ -56,7 +56,11 @@ const Aside = () => {
             </div>
             <div className="contact-info">
               <p className="contact-title">Location</p>
-              <address className="contact-link">Shangisha Magodo Lagos</address>
+              <address className="contact-link">Nottingham, UK <br /> 
+              <p style={{ color: 'black', fontWeight: 'normal' }}>NG5 8RQ</p>
+
+
+</address>
             </div>
           </li>
         </ul>
