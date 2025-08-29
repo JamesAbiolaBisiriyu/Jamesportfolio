@@ -1,5 +1,5 @@
 import { GiCalendar, GiClawSlashes, GiMailbox, GiPhone } from "react-icons/gi";
-import './Aside.css'
+// import './Aside.css'
 
 
 const Aside = () => {
@@ -47,9 +47,7 @@ const Aside = () => {
             </div>
           </li>{" "}
           <li className="contact-item">
-            <div>
-              <GiCalendar />
-            </div>
+       
             
           </li>{" "}
           <li className="contact-item">

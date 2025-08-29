@@ -327,10 +327,26 @@ main {
 .avatar-box {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
+    width: auto;
+  height: auto;
+  overflow: hidden;   /* hides the extra part */
+  /* border-radius: 50%; optional, if you want it circular */
 }
 
 .avatar-box img{
   border-radius: 20px;
+}
+/* .avatar-box {
+  width: auto;
+  height: auto;
+  overflow: hidden;   
+ } */
+
+.avatar {
+  width: auto;
+  height: auto;
+  /* object-fit: cover;  makes it fill the box neatly */
+  object-position: center;
 }
 .info-content .name {
   color: var(--white-2);
@@ -451,7 +467,7 @@ main {
 \*-----------------------------------*/
 
 .navbar {
-  position: relative;
+  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -461,7 +477,7 @@ main {
   border: 1px solid var(--jet);
   border-radius: 12px 12px 0 0;
   box-shadow: var(--shadow-2);
-  z-index: 1;
+  z-index: 5;
 }
 
 .navbar-list {
@@ -1160,6 +1176,8 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .clients-item { min-width: calc(33.33% - 10px); }
 
+  
+
 
 
   /**
@@ -1170,6 +1188,16 @@ textarea.form-input::-webkit-resizer { display: none; }
   .blog-banner-box { height: auto; }
 
 }
+
+@media (max-width: 450px) {
+  .avatar-box img {
+    display: block;
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+
 
 
 
@@ -1617,23 +1645,17 @@ textarea.form-input::-webkit-resizer { display: none; }
    * NAVBAR
    */
 
-  /**
- * NAVBAR
- */
-
-.navbar {
-  position: absolute;
-  bottom: auto;
-  top: 0;
-  left: auto;
-  right: 0;
-  width: max-content;
-  border-radius: 0 20px;
-  padding: 0 20px;
-  box-shadow: none;
-  z-index: -1;
-}
-
+  .navbar {
+    position: absolute;
+    bottom: auto;
+    top: 0;
+    left: auto;
+    right: 0;
+    width: max-content;
+    border-radius: 0 20px;
+    padding: 0 20px;
+    box-shadow: none;
+  }
 
   .navbar-list {
     gap: 30px;
@@ -1749,14 +1771,13 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar {
-    /* position: sticky; */
-    position: relative;
+    position: sticky;
     top: 60px;
     max-height: max-content;
     height: 100%;
     margin-bottom: 0;
     padding-top: 60px;
-    z-index: 2;
+    z-index: 1;
   }
 
   .sidebar-info { flex-direction: column; }
