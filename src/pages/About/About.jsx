@@ -15,14 +15,10 @@ const servicesData = [
   },
   {
     "title": "Mobile apps",
-    "icon": "/images/icon-app.svg",
+    "icon": "/images/icon-app (1).svg",
     "description": "Professional development of applications for iOS and Android."
   },
-  {
-    "title": "Photography",
-    "icon": "/images/icon-photo.svg",
-    "description": "I make high-quality photos of any category at a professional level."
-  }
+  
 ]
 
 const testimonialData = 
