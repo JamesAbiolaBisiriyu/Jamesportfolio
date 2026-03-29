@@ -1189,14 +1189,16 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 }
 
+/* For screens smaller than 450px */
 @media (max-width: 450px) {
+  /* Make avatar bigger / centered */
   .avatar-box img {
     display: block;
     width: 100px;
     height: auto;
     margin: 0 auto;
   }
-}
+  }
 
 
 
@@ -1465,7 +1467,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    * #CONTACT
    */
 
-  .mapbox {
+  .map-box {
     height: 380px;
     border-radius: 18px;
   }

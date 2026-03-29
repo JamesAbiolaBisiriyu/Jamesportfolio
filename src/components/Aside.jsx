@@ -1,12 +1,14 @@
 import { GiCalendar, GiClawSlashes, GiMailbox, GiPhone } from "react-icons/gi";
+// import './Aside.css'
+
 
 const Aside = () => {
   return (
     <aside className="sidebar">
       <div className="sidebar-info">
         <figure className="avatar-box">
-          <img src="/images/myImage2.png" alt="" className="avatar" />
-        </figure>
+  <img src="/images/myImage2.png" alt="" className="avatar" />
+</figure>
 
         <div className="info-content">
           <h1 className="name">James Abiola Bisiriyu</h1>
@@ -44,16 +46,18 @@ const Aside = () => {
               </a>
             </div>
           </li>{" "}
+          
           <li className="contact-item">
             <div>
               <GiMailbox />
             </div>
             <div className="contact-info">
               <p className="contact-title">Location</p>
-              <address className="contact-link">
-                Nottingham, UK <br />
-                <p style={{ color: "black", fontWeight: "normal" }}>NG5 8RQ</p>
-              </address>
+              <address className="contact-link">Nottingham, UK <br /> 
+              <p style={{ color: 'black', fontWeight: 'normal' }}>NG5 8RQ</p>
+
+
+</address>
             </div>
           </li>
         </ul>
