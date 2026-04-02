@@ -2,19 +2,19 @@
   {
     "id": "https://ecommercer-zeta.vercel.app/",
     "title": "Ecommerce Website/Shopper",
-    "category": "Web development",
+    "category": "web development",
     "image": "images/project-1.jpg"
   },
   {
     "id": "https://react-ecommerce-ashy-eta.vercel.app/",
     "title": "Ecommerce Website/Shop Cart",
-    "category": "Web development",
+    "category": "web development",
     "image": "images/project-2.png"
   },
   {
     "id": "https://landing-page-design-eight.vercel.app/",
     "title": "Landing Page",
-    "category": "Web design",
+    "category": "web development",
     "image": "images/project-3.jpg"
   },
   {
@@ -26,19 +26,19 @@
   {
     "id": "https://simple-clock-umber.vercel.app/",
     "title": "Simple Clock",
-    "category": "Application",
+    "category": "Applications",
     "image": "images/project-5.png"
   },
   {
     "id": "https://new-responsive-education-website.vercel.app/",
     "title": "Egator / Education Website ",
-    "category": "Web design",
+    "category": "web development",
     "image": "images/project-6.png"
   },
   {
     "id": "https://frontend-bootcamp-two.vercel.app/",
     "title": "Front End Boot Camp",
-    "category": "Web development",
+    "category": "web development",
     "image": "images/project-7.png"
   },
   {
@@ -50,7 +50,43 @@
   {
     "id": "https://redux-toolkit-mu.vercel.app/",
     "title": "Redux Tool Kit",
-    "category": "Application",
+    "category": "Applications",
     "image": "images/project-9.png"
+  },
+  {
+    "id": "https://jsx-and-react-chekpoint.vercel.app/",
+    "title": "JSX and React Checkpoint",
+    "category": "web development",
+    "image": "images/project-1.jpg"
+  },
+  {
+    "id": "https://react-check-point1.vercel.app/",
+    "title": "React Checkpoint 1",
+    "category": "web development",
+    "image": "images/project-2.png"
+  },
+  {
+    "id": "https://todo-app-ruddy-five-19.vercel.app/",
+    "title": "Todo App",
+    "category": "Applications",
+    "image": "images/project-8.jpg"
+  },
+  {
+    "id": "https://react-hooks-checkpoint-sigma.vercel.app/",
+    "title": "Movie App Where You Can Present Your Favorite Movies or TV Shows.",
+    "category": "Applications",
+    "image": "images/project-3.jpg"
+  },
+  {
+    "id": "https://movie-app-orcin-chi.vercel.app/",
+    "title": "Movie App",
+    "category": "Applications",
+    "image": "images/project-3.jpg"
+  },
+  {
+    "id": "https://shopping-cart-context-api-dun.vercel.app/",
+    "title": "Shopping Cart Context API",
+    "category": "web development",
+    "image": "images/project-2.png"
   }
 ]
