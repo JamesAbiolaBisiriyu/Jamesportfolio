@@ -53,7 +53,7 @@ const Aside = () => {
             </div>
             <div className="contact-info">
               <p className="contact-title">Location</p>
-              <address className="contact-link">Nottingham, UK <br /> 
+              <address className="contact-link">Lagos, Nigeria <br /> 
               <p style={{ color: 'black', fontWeight: 'normal' }}>NG5 8RQ</p>
 
 
